@@ -8,6 +8,7 @@ namespace Matematik
         {
             Console.WriteLine("Hej verden");
 
+
             Eksponentiel_udvikling f = new Eksponentiel_udvikling(4, 2, 2);
             Console.WriteLine("Fordoblingstid " + " " + f.BestemFordoblingstid());
             Console.ReadLine();
@@ -21,9 +22,6 @@ namespace Matematik
 
             Console.WriteLine(f.ForskriftUdFraToPunkter());
             Console.ReadLine();
-
-
-
         }
     }
 }
